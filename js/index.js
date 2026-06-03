@@ -13,7 +13,8 @@ const foods = [
   },
   {
     name: "Sate Ayam",
-    image: "https://images.unsplash.com/photo-1559847844-d721426d6edc?w=600",
+    image:
+      "https://images.unsplash.com/photo-1645696301019-35adcc18fc21?q=80&w=1329&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Bakso",
