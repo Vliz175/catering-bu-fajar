@@ -106,7 +106,7 @@ const menuHarian = [
   },
   {
     nama: "Nasi Kroyokan Sambel Tempong",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-harian/nasi_kroyokan_sambel_tempong.jpeg",
   },
   {
@@ -136,7 +136,7 @@ const menuHarian = [
   },
   {
     nama: "Nasi Liwet Kroyokan",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-harian/nasi_liwet_kroyokan.jpeg",
   },
   {

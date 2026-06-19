@@ -1,17 +1,17 @@
 const menuCustom = [
   {
     nama: "Aneka Lauk",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-custom/aneka_lauk.jpeg",
   },
   {
     nama: "Ayam dan Paru Ukep",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-custom/ayam dan paru ukep.jpeg",
   },
   {
     nama: "Bubur Sengkolo",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-custom/bubur_sengkolo.jpeg",
   },
   {
@@ -26,12 +26,12 @@ const menuCustom = [
   },
   {
     nama: "Jajanan Pasar",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-custom/jajan_pasar.jpeg",
   },
   {
     nama: "Polo Pendem",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-custom/polo_pendem.jpeg",
   },
   {
@@ -67,7 +67,7 @@ menuCustom.forEach((menu) => {
 
           <a href="https://wa.me/6281233404206?text=${pesan}" target="_blank">
               <button class="order-btn">
-                Konsultasi Sekarang
+                Pesan Sekarang
               </button>
           </a>
 

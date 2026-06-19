@@ -1,7 +1,7 @@
 const menuAcara = [
   {
     nama: "Menu Set Prasmanan",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-acara/menu_set_prasmanan.jpeg",
   },
   {
@@ -16,7 +16,7 @@ const menuAcara = [
   },
   {
     nama: "Paket Menu Lebaran",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-acara/paket_menu_lebaran.jpeg",
   },
   {
@@ -36,22 +36,22 @@ const menuAcara = [
   },
   {
     nama: "Tumpeng 17-an",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-acara/tumpeng_17-an.jpeg",
   },
   {
     nama: "Tumpeng Nasi Kuning",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-acara/tumpeng_nasi_kuning.jpeg",
   },
   {
     nama: "Tumpeng Nasi Putih",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-acara/tumpeng_nasi_putih.jpeg",
   },
   {
     nama: "Wajik dan Tetel Manten",
-    harga: "Rp0",
+    harga: "Rp0 (Custom)",
     gambar: "img/paket-acara/wajik_dan_tetel_pengantin.jpeg",
   },
 ];
