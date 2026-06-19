@@ -1,79 +1,48 @@
 const menuCustom = [
   {
-    nama: "Custom Kantor",
-    harga: "Mulai Rp 20.000 / pax",
-    gambar: "https://images.unsplash.com/photo-1555244162-803834f70033?w=800",
-    deskripsi:
-      "Paket fleksibel untuk rapat, gathering, briefing, dan kebutuhan kantor lainnya.",
-    isi: [
-      "Menu dapat dipilih sendiri",
-      "Jumlah porsi fleksibel",
-      "Pilihan lauk beragam",
-      "Request tingkat kepedasan",
-    ],
+    nama: "Aneka Lauk",
+    harga: "Rp0",
+    gambar: "/img/paket-custom/aneka_lauk.jpeg",
   },
-
   {
-    nama: "Custom Pernikahan",
-    harga: "Sesuai Kebutuhan",
-    gambar:
-      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800",
-    deskripsi: "Susun menu pernikahan sesuai tema dan anggaran acara Anda.",
-    isi: [
-      "Menu prasmanan",
-      "Pilihan dessert",
-      "Pilihan minuman",
-      "Request dekorasi meja",
-    ],
+    nama: "Ayam dan Paru Ukep",
+    harga: "Rp0",
+    gambar: "/img/paket-custom/ayam dan paru ukep.jpeg",
   },
-
   {
-    nama: "Custom Ulang Tahun",
-    harga: "Mulai Rp 25.000 / box",
-    gambar:
-      "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800",
-    deskripsi:
-      "Menu spesial untuk ulang tahun anak maupun dewasa dengan pilihan makanan favorit.",
-    isi: ["Snack Box", "Nasi Box", "Puding", "Minuman"],
+    nama: "Bubur Sengkolo",
+    harga: "Rp0",
+    gambar: "/img/paket-custom/bubur_sengkolo.jpeg",
   },
-
   {
-    nama: "Custom Sekolah",
-    harga: "Mulai Rp 15.000 / box",
-    gambar:
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
-    deskripsi:
-      "Menu sehat dan ekonomis untuk kegiatan sekolah, study tour, maupun acara kelas.",
-    isi: ["Menu bergizi", "Porsi siswa", "Minuman", "Buah"],
+    nama: "Es Podeng Manten",
+    harga: "Rp10.000",
+    gambar: "/img/paket-custom/es_podeng_manten_10k.jpeg",
   },
-
   {
-    nama: "Custom Komunitas",
-    harga: "Sesuai Budget",
-    gambar:
-      "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800",
-    deskripsi:
-      "Cocok untuk gathering komunitas, organisasi, dan kegiatan sosial.",
-    isi: [
-      "Jumlah peserta fleksibel",
-      "Pilihan menu bebas",
-      "Pengiriman lokasi acara",
-      "Konsultasi gratis",
-    ],
+    nama: "Gurami Asam Manis",
+    harga: "Rp75.000",
+    gambar: "/img/paket-custom/gurami_asam_manis_75k.jpeg",
   },
-
   {
-    nama: "Custom Sesuai Budget",
-    harga: "Mulai Rp 10.000",
-    gambar: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800",
-    deskripsi:
-      "Punya budget tertentu? Kami bantu menyesuaikan menu terbaik sesuai anggaran Anda.",
-    isi: [
-      "Budget fleksibel",
-      "Menu dapat disesuaikan",
-      "Konsultasi gratis",
-      "Penawaran khusus",
-    ],
+    nama: "Jajanan Pasar",
+    harga: "Rp0",
+    gambar: "/img/paket-custom/jajan_pasar.jpeg",
+  },
+  {
+    nama: "Polo Pendem",
+    harga: "Rp0",
+    gambar: "/img/paket-custom/polo_pendem.jpeg",
+  },
+  {
+    nama: "Rujak Manis",
+    harga: "Rp15.000",
+    gambar: "/img/paket-custom/rujak_manis_15k.jpeg",
+  },
+  {
+    nama: "Siomay Bandung",
+    harga: "Rp20.000",
+    gambar: "/img/paket-custom/siomay_bandung_20k.jpeg",
   },
 ];
 
@@ -95,16 +64,6 @@ menuCustom.forEach((menu) => {
           <h3>${menu.nama}</h3>
 
           <strong>${menu.harga}</strong>
-
-          <p class="menu-desc">
-            ${menu.deskripsi}
-          </p>
-
-          <h4>Fitur Paket:</h4>
-
-          <ul>
-            ${menu.isi.map((item) => `<li>${item}</li>`).join("")}
-          </ul>
 
           <a href="https://wa.me/6281233404206?text=${pesan}" target="_blank">
               <button class="order-btn">

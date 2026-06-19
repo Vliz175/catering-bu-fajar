@@ -1,55 +1,168 @@
 const menuHarian = [
   {
-    nama: "Pecel",
-    harga: "Rp 15.000",
-    gambar:
-      "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800",
-    deskripsi:
-      "Menu tradisional khas Jawa dengan sayuran segar dan sambal kacang.",
-    isi: ["Nasi Putih", "Sayuran Pecel", "Sambal Kacang", "Rempeyek"],
+    nama: "Lontong Sayur Box",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/lontong_sayur_box_20k.jpeg",
   },
-
   {
-    nama: "Nasi Kuning",
-    harga: "Rp 18.000",
-    gambar:
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
-    deskripsi: "Nasi kuning gurih cocok untuk sarapan maupun acara spesial.",
-    isi: ["Nasi Kuning", "Telur Balado", "Kering Tempe", "Mie Goreng", "Timun"],
+    nama: "Nasi Ala Tambak Bayan",
+    harga: "Rp22.500",
+    gambar: "/img/paket-harian/nasi_ala_tambak_bayan_22,5k.jpeg",
   },
-
   {
-    nama: "Ayam Geprek",
-    harga: "Rp 20.000",
-    gambar: "https://images.unsplash.com/photo-1562967914-608f82629710?w=800",
-    deskripsi: "Ayam crispy dengan sambal pedas yang menggugah selera.",
-    isi: ["Nasi Putih", "Ayam Geprek", "Sambal", "Lalapan"],
+    nama: "Nasi Ayam Bakar Kecap Paha Utuh",
+    harga: "Rp25.000",
+    gambar: "/img/paket-harian/nasi_ayam_bakar_kecap_paha_utuh_25k.jpeg",
   },
-
   {
-    nama: "Nasi Goreng",
-    harga: "Rp 18.000",
-    gambar:
-      "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800",
-    deskripsi: "Nasi goreng spesial dengan cita rasa khas rumahan.",
-    isi: ["Nasi Goreng", "Telur", "Kerupuk", "Acar"],
+    nama: "Nasi Ayam Goreng Kremes",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/nasi_ayam_goreng_kremes_20k.jpeg",
   },
-
   {
-    nama: "Sego Sambel",
-    harga: "Rp 20.000",
-    gambar: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
-    deskripsi: "Menu favorit dengan sambal khas dan lauk pilihan.",
-    isi: ["Nasi Putih", "Ayam Goreng", "Sambal", "Tahu Tempe", "Lalapan"],
+    nama: "Nasi Ayam Goreng Laos",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/nasi_ayam_goreng_laos_20k.jpeg",
   },
-
   {
-    nama: "Nasi Rames",
-    harga: "Rp 17.000",
-    gambar:
-      "https://img-global.cpcdn.com/recipes/5e9571c2b6870b01/1200x630cq80/photo.jpg",
-    deskripsi: "Paket lengkap dengan berbagai lauk dan sayuran.",
-    isi: ["Nasi Putih", "Ayam Suwir", "Tempe Orek", "Sayur", "Sambal"],
+    nama: "Nasi Ayam Kecap",
+    harga: "Rp17.500",
+    gambar: "/img/paket-harian/nasi_ayam_kecap_17,5k.jpeg",
+  },
+  {
+    nama: "Nasi Ayam Panggang Rolade",
+    harga: "Rp25.000",
+    gambar: "/img/paket-harian/nasi_ayam_panggang_rolade_25k.jpeg",
+  },
+  {
+    nama: "Nasi Ayam Teriyaki",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/nasi_ayam_teriyaki_20k.jpeg",
+  },
+  {
+    nama: "Nasi Bekal Tinwall",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/nasi_bekal_tinwall_20k.jpeg",
+  },
+  {
+    nama: "Nasi Bungkus Godong Jati",
+    harga: "Rp15.000",
+    gambar: "/img/paket-harian/nasi_bungkus_godong_jati_15k.jpeg",
+  },
+  {
+    nama: "Nasi Campur Ayam",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/nasi_campur_ayam_20k.jpeg",
+  },
+  {
+    nama: "Nasi Campur Ayam Goreng",
+    harga: "Rp25.000",
+    gambar: "/img/paket-harian/nasi_campur_ayam_goreng_25k.jpeg",
+  },
+  {
+    nama: "Nasi Campur Ayam Goreng Serundeng",
+    harga: "Rp22.500",
+    gambar: "/img/paket-harian/nasi_campur_ayam_goreng_serundeng_22.5k.jpeg",
+  },
+  {
+    nama: "Nasi Campur Ayam Standar",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/nasi_campur_ayam_standar_20k.jpeg",
+  },
+  {
+    nama: "Nasi Campur Daging",
+    harga: "Rp27.500",
+    gambar: "/img/paket-harian/nasi_campur_daging_27,5k.jpeg",
+  },
+  {
+    nama: "Nasi Campur Daging Standar",
+    harga: "Rp22.500",
+    gambar: "/img/paket-harian/nasi_campur_daging_standar_22,5k.jpeg",
+  },
+  {
+    nama: "Nasi Daging Capcay",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/nasi_daging_capcay_20k.jpeg",
+  },
+  {
+    nama: "Nasi Daging Capcay Telur Asin",
+    harga: "Rp27.500",
+    gambar: "/img/paket-harian/nasi_daging_capcay_telur_asin_27,5k.jpeg",
+  },
+  {
+    nama: "Nasi Daging Telur Asin",
+    harga: "Rp25.000",
+    gambar: "/img/paket-harian/nasi_daging_telur_asin_25k.jpeg",
+  },
+  {
+    nama: "Nasi Daun Jeruk Paha Utuh",
+    harga: "Rp25.000",
+    gambar: "/img/paket-harian/nasi_daun_jeruk_paha_utuh_25k.jpeg",
+  },
+  {
+    nama: "Nasi Jagung",
+    harga: "Rp15.000",
+    gambar: "/img/paket-harian/nasi_jagung_15k.jpeg",
+  },
+  {
+    nama: "Nasi Kroyokan Sambel Tempong",
+    harga: "Rp0",
+    gambar: "/img/paket-harian/nasi_kroyokan_sambel_tempong.jpeg",
+  },
+  {
+    nama: "Nasi Kuning Ayam Krispi",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/nasi_kuning_ayam_krispi_20k.jpeg",
+  },
+  {
+    nama: "Nasi Kuning Ayam Serundeng",
+    harga: "Rp20.000",
+    gambar: "/img/paket-harian/nasi_kuning_ayam_serundeng_20k.jpeg",
+  },
+  {
+    nama: "Nasi Kuning Daging Komplit",
+    harga: "Rp25.000",
+    gambar: "/img/paket-harian/nasi_kuning_daging_komplit_25k.jpeg",
+  },
+  {
+    nama: "Nasi Kuning Kembang",
+    harga: "Rp22.500",
+    gambar: "/img/paket-harian/nasi_kuning_kembang_22,5k.jpeg",
+  },
+  {
+    nama: "Nasi Kuning Paket Hemat",
+    harga: "Rp17.500",
+    gambar: "/img/paket-harian/nasi_kuning_paket_hemat_17,5k.jpeg",
+  },
+  {
+    nama: "Nasi Liwet Kroyokan",
+    harga: "Rp0",
+    gambar: "/img/paket-harian/nasi_liwet_kroyokan.jpeg",
+  },
+  {
+    nama: "Nasi Madura",
+    harga: "Rp30.000",
+    gambar: "/img/paket-harian/nasi_madura_30k.jpeg",
+  },
+  {
+    nama: "Nasi Opor Ayam",
+    harga: "Rp22.500",
+    gambar: "/img/paket-harian/nasi_opor_ayam_22,5k.jpeg",
+  },
+  {
+    nama: "Nasi Sambel Tempong",
+    harga: "Rp25.000",
+    gambar: "/img/paket-harian/nasi_sambel_tempong_25k.jpeg",
+  },
+  {
+    nama: "Nasi Soto Ayam per Porsi",
+    harga: "Rp15.000",
+    gambar: "/img/paket-harian/nasi_soto_ayam_per_porsi_15k.jpeg",
+  },
+  {
+    nama: "Nasi Urap-Urap Ayam Panggang Komplit",
+    harga: "Rp25.000",
+    gambar: "/img/paket-harian/nasi_urap_urap_ayam_panggang_komplit_25k.jpeg",
   },
 ];
 
@@ -72,16 +185,6 @@ menuHarian.forEach((menu) => {
 
           <strong>${menu.harga}</strong>
 
-          <p class="menu-desc">
-              ${menu.deskripsi}
-          </p>
-
-          <h4>Isi Paket:</h4>
-
-          <ul>
-              ${menu.isi.map((item) => `<li>${item}</li>`).join("")}
-          </ul>
-
           <a
             href="https://wa.me/6281233404206?text=${pesan}"
             target="_blank"
@@ -97,3 +200,13 @@ menuHarian.forEach((menu) => {
 
   `;
 });
+
+// <p class="menu-desc">
+//     ${menu.deskripsi}
+// </p>
+
+// <h4>Isi Paket:</h4>
+
+// <ul>
+//     ${menu.isi.map((item) => `<li>${item}</li>`).join("")}
+// </ul>
