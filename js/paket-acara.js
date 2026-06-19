@@ -1,82 +1,58 @@
 const menuAcara = [
   {
-    nama: "Paket Pernikahan",
-    harga: "Mulai Rp 35.000 / pax",
-    gambar:
-      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800",
-    deskripsi:
-      "Paket catering lengkap untuk acara pernikahan dengan menu prasmanan dan pelayanan profesional.",
-    isi: [
-      "Nasi Putih",
-      "Ayam Bakar",
-      "Daging Rendang",
-      "Sayur",
-      "Kerupuk",
-      "Buah",
-      "Air Mineral",
-    ],
+    nama: "Menu Set Prasmanan",
+    harga: "Rp0",
+    gambar: "img/paket-acara/menu_set_prasmanan.jpeg",
   },
-
   {
-    nama: "Paket Tasyakuran",
-    harga: "Mulai Rp 25.000 / box",
-    gambar: "https://images.unsplash.com/photo-1555244162-803834f70033?w=800",
-    deskripsi:
-      "Cocok untuk syukuran rumah baru, aqiqah, khitan, dan acara keluarga.",
-    isi: [
-      "Nasi Putih",
-      "Ayam Goreng",
-      "Mie Goreng",
-      "Tempe Orek",
-      "Sambal",
-      "Buah",
-    ],
+    nama: "Nasi Kuning Bento Karakter",
+    harga: "Rp22.500",
+    gambar: "img/paket-acara/nasi_kuning_bento_karakter_22,5k.jpeg",
   },
-
   {
-    nama: "Paket Ulang Tahun",
-    harga: "Mulai Rp 30.000 / box",
-    gambar:
-      "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800",
-    deskripsi:
-      "Menu spesial untuk meramaikan acara ulang tahun keluarga maupun perusahaan.",
-    isi: [
-      "Nasi Goreng",
-      "Ayam Crispy",
-      "Sosis",
-      "Kentang Goreng",
-      "Puding",
-      "Minuman",
-    ],
+    nama: "Nasi Paket Selapanan Bayi",
+    harga: "Rp35.000",
+    gambar: "img/paket-acara/nasi_paket_selapanan_bayi_35k.jpeg",
   },
-
   {
-    nama: "Paket Rapat Kantor",
-    harga: "Mulai Rp 22.000 / box",
-    gambar:
-      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=800",
-    deskripsi:
-      "Praktis dan ekonomis untuk meeting, gathering, maupun pelatihan perusahaan.",
-    isi: ["Nasi Putih", "Ayam Teriyaki", "Sayur", "Kerupuk", "Air Mineral"],
+    nama: "Paket Menu Lebaran",
+    harga: "Rp0",
+    gambar: "img/paket-acara/paket_menu_lebaran.jpeg",
   },
-
   {
-    nama: "Paket Seminar",
-    harga: "Mulai Rp 20.000 / box",
-    gambar:
-      "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800",
-    deskripsi: "Paket hemat untuk seminar, workshop, dan kegiatan kampus.",
-    isi: ["Nasi Kotak", "Ayam Goreng", "Mie", "Sambal", "Air Mineral"],
+    nama: "Paket Prasmanan per Porsi",
+    harga: "Rp35.000",
+    gambar: "img/paket-acara/paket_prasmanan_per_porsi_35k.jpeg",
   },
-
   {
-    nama: "Paket Arisan",
-    harga: "Mulai Rp 18.000 / box",
-    gambar:
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
-    deskripsi:
-      "Menu rumahan favorit yang cocok untuk arisan dan kumpul keluarga.",
-    isi: ["Nasi Putih", "Ayam Kecap", "Tempe", "Sayur", "Kerupuk"],
+    nama: "Tumini Nasi Kuning Box",
+    harga: "Rp30.000",
+    gambar: "img/paket-acara/tumini_nasi_kuning_box_30k.jpeg",
+  },
+  {
+    nama: "Tumini Nasi Kuning Komplit",
+    harga: "Rp30.000",
+    gambar: "img/paket-acara/tumini_nasi_kuning_komplit_30k.jpeg",
+  },
+  {
+    nama: "Tumpeng 17-an",
+    harga: "Rp0",
+    gambar: "img/paket-acara/tumpeng_17-an.jpeg",
+  },
+  {
+    nama: "Tumpeng Nasi Kuning",
+    harga: "Rp0",
+    gambar: "img/paket-acara/tumpeng_nasi_kuning.jpeg",
+  },
+  {
+    nama: "Tumpeng Nasi Putih",
+    harga: "Rp0",
+    gambar: "img/paket-acara/tumpeng_nasi_putih.jpeg",
+  },
+  {
+    nama: "Wajik dan Tetel Manten",
+    harga: "Rp0",
+    gambar: "img/paket-acara/wajik_dan_tetel_pengantin.jpeg",
   },
 ];
 
@@ -97,16 +73,6 @@ menuAcara.forEach((menu) => {
           <h3>${menu.nama}</h3>
 
           <strong>${menu.harga}</strong>
-
-          <p class="menu-desc">
-              ${menu.deskripsi}
-          </p>
-
-          <h4>Isi Paket:</h4>
-
-          <ul>
-              ${menu.isi.map((item) => `<li>${item}</li>`).join("")}
-          </ul>
 
           <a
             href="https://wa.me/6281233404206?text=${pesan}"
